@@ -4,11 +4,11 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Shoppingcart {
-    public void checkout(){
+    public void checkout(String status){
         //multiple aspects will be there
         //logger
         //authentication & authorization
-        System.out.println("Checkout method for shopping cart class");
+        System.out.println("Checkout method for shopping cart class" + status);
     }
 }
 

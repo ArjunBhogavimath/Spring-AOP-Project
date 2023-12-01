@@ -12,7 +12,7 @@ public class Main {
         //so inside getBean() we need to specify the calssname and .class,
         //by doing this we can get the bean of shopping cart class
         Shoppingcart cart = context.getBean(Shoppingcart.class);
-        cart.checkout();
+        cart.checkout("CANCEL");
     }
 }
 
