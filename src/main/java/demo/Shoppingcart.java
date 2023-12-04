@@ -10,6 +10,10 @@ public class Shoppingcart {
         //authentication & authorization
         System.out.println("Checkout method for shopping cart class" + status);
     }
+
+    public int quantity(){
+        return 2;
+    }
 }
 
 
